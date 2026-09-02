@@ -156,22 +156,8 @@ streamlit run app/streamlit_app.py
 | Interactive demo | Streamlit |
 | Evaluation | Custom metrics (Precision@K, Recall@K, NDCG@K, Coverage, Novelty) |
 
----
 
-## Generalizing Beyond Games
 
-This system is designed as a **domain-agnostic recommendation framework**. The same architecture applies to:
-
-| Domain | Interaction Signal | Content Features | Quality Signal |
-|--------|-------------------|-----------------|----------------|
-| **E-commerce** | Purchase history, browsing time | Product categories, descriptions | Review sentiment |
-| **Streaming** | Watch time, completion rate | Genre, cast, director tags | Audience ratings |
-| **Job boards** | Applications, saves | Skills, industry, location | Company ratings |
-| **News/Content** | Read time, shares | Topic tags, entities | Engagement quality |
-
-The cold-start handling (content-based fallback), adaptive blending, and Wilson quality ranking are transferable patterns regardless of domain.
-
----
 
 ## License
 
