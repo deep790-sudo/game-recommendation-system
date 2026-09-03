@@ -127,7 +127,7 @@ A game with 3/3 perfect reviews ranks **lower** than 950/1000 — because we lac
 
 ```bash
 # Clone and setup
-git clone https://github.com/YOUR_USERNAME/game-recommendation-system.git
+git clone https://github.com/deep790-sudo/game-recommendation-system.git
 cd game-recommendation-system
 python -m venv .venv
 source .venv/bin/activate  # or .venv/bin/activate.fish for fish shell
